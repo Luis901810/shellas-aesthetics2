@@ -14,6 +14,7 @@
     align-items: center;
     text-align: center;
     /* background-image: url("../../../Image/shellas.jpeg"); */
+    background-image: url("../../../assets/shellas.jpeg");
     background-size: cover;
     background-position: center;
     border-top-left-radius: 20px;
