@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 const Footer = () =>{
 
-  const navigate = useNavigate();
+
 
     return(
 <div className="container">
@@ -13,8 +13,12 @@ const Footer = () =>{
       <div className="col-6 col-md-2 mb-3">
         <h5>Section</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="/"  className="nav-link p-0 text-body-secondary me-2">Home</a></li>
-          <li className="nav-item mb-2"><span onClick={() => navigate("/catalogue") } className="nav-link p-0 text-body-secondary">Catalogue</span></li>
+          <li className="nav-item mb-2">
+          <Link to="/" className="nav-link p-0 text-body-secondary me-2">Home</Link>
+          </li>
+          <li className="nav-item mb-2">
+          <Link to="/catalogue" className="nav-link p-0 text-body-secondary">Catalogue</Link>
+          </li>
           
         </ul>
       </div>
