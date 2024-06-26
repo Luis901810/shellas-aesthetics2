@@ -1,0 +1,179 @@
+.information{
+    display: flex; 
+    border-radius: 20px;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, .1);
+    height: 500px;
+    max-width: 900px;
+    transition: all 1s ease;
+    margin: 10px;
+}
+
+.infor{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* background-image: url("../../../Image/shellas.jpeg"); */
+    background-image: url("../../../assets/shellas.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.childs{
+    width: 100%;
+    padding: 0 30px;
+}
+.childs h2{
+    font-size: 2rem;
+    color: #062f53;
+    font-weight: bold;
+}
+.childs p{
+    margin: 15px;
+    color: #040607;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.childs input{
+    background-color: transparent;
+    outline: none;
+    border: solid 2px #9191bd;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #2d2ded;
+    cursor: pointer;
+    transition: background-color.3s ease;
+
+}
+
+.childs input:hover{
+    background-color: #9191bd;
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+.formInf{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    background-color: #f8f8f8;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.formChilds{
+    padding: 0 30px;
+}
+
+.formChilds h2{
+    color: #333;
+    font-size: 2rem ;
+}
+.formChilds p{
+    color: #555;
+}
+.icon{
+    margin: 15px 0;
+
+}
+.icon i{
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0 10px;
+    color: #9191bd;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    border: solid thin #9191bd;
+}
+
+.icon i:hover{
+    background-color: #c7c7f3;
+    color: #fff;
+}
+
+.form{
+    padding: 30px 0 0 0;
+}
+.form label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    background-color: #fff;
+}
+.form label input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+}
+.form label i{
+    color: #a7a7a7a7;
+}
+
+.boton{
+    background-color: #9191bd;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+.boton:hover{
+    background-color: #7a7a9a;
+}
+
+.hide{
+    position:absolute;
+    transform: translateY(-300%);
+
+}
+/* responsive */
+@media screen and (max-width:750px){
+    html{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:580px){
+    html{
+        font-size: 10px;
+    }
+    .information{
+        height: auto;
+        flex-direction: column;
+    
+    }
+    .infor{
+        
+        width: 100%;
+        padding: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 0;
+        background-size:70%; 
+
+    }
+    .formInf{
+        width: 100%;
+        padding: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+    }
+    
+    
+}
