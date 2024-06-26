@@ -14,10 +14,10 @@ const Footer = () =>{
         <h5>Section</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2">
-          <Link to="/" className="nav-link p-0 text-body-secondary me-2">Home</Link>
+              <Link to="/" className="nav-link p-0 text-body-secondary me-2">Home</Link>
           </li>
           <li className="nav-item mb-2">
-          <Link to="/catalogue" className="nav-link p-0 text-body-secondary">Catalogue</Link>
+              <Link to="/catalogue" className="nav-link p-0 text-body-secondary">Catalogue</Link>
           </li>
           
         </ul>
@@ -26,8 +26,14 @@ const Footer = () =>{
       <div className="col-6 col-md-5 mb-3">
         <h5>Contact us</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary"><i className="bi bi-telephone me-2"></i>+1 774-415-0836</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary"><i className="bi bi-envelope-arrow-up me-2"></i>shellasaesthetics@gmail.com</a></li>
+          <li className="nav-item mb-2">
+              <Link  to="#" className="nav-link p-0 text-body-secondary">
+              <i className="bi bi-telephone me-2"></i>+1 774-415-0836</Link>
+          </li>
+          <li className="nav-item mb-2">
+              <Link  to="#" className="nav-link p-0 text-body-secondary">
+              <i className="bi bi-envelope-arrow-up me-2"></i>shellasaesthetics@gmail.com</Link>
+            </li>
           
         </ul>
       </div>
@@ -50,9 +56,18 @@ const Footer = () =>{
     <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
       <p>&copy; 2024 Company, Inc. All rights reserved.</p>
       <ul className="nav d-flex">
-      <li className="nav-item ms-3"><a className="nav-link link-body-emphasis" href="https://www.instagram.com/shellasaesthetics/"><i className="bi bi-instagram"></i></a></li>
-      <li className="nav-item ms-3"><a className="nav-link link-body-emphasis" href="https://www.tiktok.com/@shellasaesthetics"><i className="bi bi-tiktok"></i></a></li>
-      <li className="nav-item ms-3"><a className="nav-link link-body-emphasis" href="https://www.facebook.com/shellasaesthetics/"><i className="bi bi-facebook"></i></a></li>
+      <li className="nav-item ms-3">
+        <Link  to="https://www.instagram.com/shellasaesthetics/" className="nav-link link-body-emphasis">
+        <i className="bi bi-instagram"></i></Link>
+      </li>
+      <li className="nav-item ms-3">
+        <Link  to="https://www.tiktok.com/@shellasaesthetics"  className="nav-link link-body-emphasis">
+        <i className="bi bi-tiktok"></i></Link >
+      </li>
+      <li className="nav-item ms-3">
+        <Link  to="https://www.facebook.com/shellasaesthetics/" className="nav-link link-body-emphasis">
+        <i className="bi bi-facebook"></i></Link >
+      </li>
       </ul>
     </div>
   </footer>
