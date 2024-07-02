@@ -2,7 +2,7 @@
 const Catalougue = () =>{
     return(
         <div>
-            <h2>soy el catalogue</h2>
+            <h2>soy el service</h2>
             
         </div>
     )
