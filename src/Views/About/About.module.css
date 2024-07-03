@@ -18,10 +18,10 @@
 
 .subtitle {
     margin-bottom: 0.5rem;
-  position: relative;
-  font-weight: 500;
-  letter-spacing:2px;
-  color: var(--text-dark)
+    position: relative;
+    font-weight: 500;
+    letter-spacing:2px;
+    color: var(--text-dark)
 }
 .subtitle::after {
     position: absolute;
@@ -42,6 +42,9 @@
     max-width: 450px;
     margin: auto;
     border-radius: 9px;
+}
+.btn{
+    border-radius: 5px;
 }
 
 

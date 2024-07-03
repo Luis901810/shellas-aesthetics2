@@ -41,7 +41,7 @@ const About = () =>{
 
     return(
         <div className={styles.container}>
-            <div >
+            <div className={styles.img} >
                 <img src={cliente} className={styles.img} alt="about" />
             </div>
             <div className={styles.content}>
