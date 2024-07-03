@@ -45,8 +45,8 @@ const About = () =>{
                 <img src={cliente} className={styles.img} alt="about" />
             </div>
             <div className={styles.content}>
-            <p className={styles.subtitle}> About Us</p>
-            <h2 className={styles.title}>Shellas is a Licensed Aesthetician with a background in Psychology, Sociology</h2>
+            <h2 className={styles.title}> About Us</h2>
+            <h4 className={styles.subtitle}>Shellas is a Licensed Aesthetician with a background in Psychology, Sociology</h4>
             
            
             
