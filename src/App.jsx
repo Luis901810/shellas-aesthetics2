@@ -3,20 +3,27 @@ import './App.css'
 import Footer from "./Views/Footer/Footer"
 import Landing from "./Views/Landing/Landing"
 import Catalougue from "./Views/Catalogue/Catalogue"
-import SearchBar from "./Components/SearchBar/SearchBar"
 import Detail from "./Views/Detail/Detail"
+import About from "./Views/About/About"
+import Contact from "./Views/Contact/Contact"
+import NavBar from "./Views/NavBar/NavBar"
+
 
 function App() {
 
 
   return (
     <>
-
-      <SearchBar />
+     
+     <NavBar />
+   
     <Routes>
       <Route path="/"            element={ <Landing />} />
-      <Route path="/catalogue"   element={ <Catalougue />} />
+      <Route path="/service"     element={ <Catalougue />} />
       <Route path="/detail"      element={ <Detail />} />
+      <Route path="/about"       element={ <About />} />
+      <Route  path="/contact"    element={ <Contact />} />
+      
     </Routes>
 
     <Footer />
